@@ -199,12 +199,14 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="2.-Hypothesis-and-Appropriate-Statistical-Test">2. Hypothesis and Appropriate Statistical Test<a class="anchor-link" href="#2.-Hypothesis-and-Appropriate-Statistical-Test">&#182;</a></h2><h3 id="Hypotheses">Hypotheses<a class="anchor-link" href="#Hypotheses">&#182;</a></h3><ul>
-<li>Null Hypothesis (H0): There is no difference in time to complete tasks and thus the difference in time is 0
-$$\mu_c=\mu_i$$
-$$\mu_D=0$$</li>
-<li>Alternative Hypothesis (H1): There is a difference in time to complete tasks
-$$\mu_c\neq\mu_i$$
-$$\mu_D\neq0$$</li>
+<li><strong>Null Hypothesis</strong> (H0): The population mean of time to complete congruent task is equal to the population mean of time to complete incongruent task
+$$H_0:\mu_c=\mu_i$$
+$$H_0:\mu_c-\mu_i=0$$
+$$H_0:\mu_D=0$$</li>
+<li><strong>Alternative Hypothesis</strong> (H1): The population mean of time to complete congruent task is different from the population mean of time to complete incongruent task
+$$H_1:\mu_c\neq\mu_i$$
+$$H_1:\mu_c-\mu_i\neq0$$
+$$H_1:\mu_D\neq0$$</li>
 </ul>
 <h3 id="Appropriate-Statistical-Test">Appropriate Statistical Test<a class="anchor-link" href="#Appropriate-Statistical-Test">&#182;</a></h3><p>An appropriate test for this analysis is <strong>t-test</strong> for dependent samples because of the followings:</p>
 <ol>
@@ -677,9 +679,9 @@ MzMrcpIwM7MiJwkzMytykjAzsyInCTMzK/r/wSpqAb4ekBMAAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="5.-Statistical-Test">5. Statistical Test<a class="anchor-link" href="#5.-Statistical-Test">&#182;</a></h2><ul>
-<li><strong>Alpha Level</strong> = <strong>.5</strong></li>
+<li><strong>Alpha Level</strong> = <strong>.05</strong></li>
 <li><strong>Degrees of Freedom</strong> = n - 1 = 24 - 1 = <strong>23</strong></li>
-<li><strong>t-critical Value</strong> (two-tails) = <strong>3.104 and -3.104</strong></li>
+<li><strong>t-critical Value</strong> (two-tails) = <strong>2.069 and -2.069</strong></li>
 </ul>
 <p>Calculating t-value:</p>
 
